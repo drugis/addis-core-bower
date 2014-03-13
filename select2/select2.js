@@ -1138,7 +1138,7 @@ the specific language governing permissions and limitations under the Apache Lic
                 windowHeight = $window.height(),
                 viewPortRight = $window.scrollLeft() + windowWidth,
                 viewportBottom = $window.scrollTop() + windowHeight,
-                dropTop = offset.top + height,
+                dropTop = offset.top + (height*2),
                 dropLeft = offset.left,
                 enoughRoomBelow = dropTop + dropHeight <= viewportBottom,
                 enoughRoomAbove = (offset.top - dropHeight) >= this.body().scrollTop(),
