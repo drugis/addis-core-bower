@@ -772,6 +772,7 @@ the specific language governing permissions and limitations under the Apache Lic
             this.enable(!disabled);
 
             var readonly = opts.element.prop("readonly");
+            if (readonly === undefined) readonly = opts.readonly;
             if (readonly === undefined) readonly = false;
             this.readonly(readonly);
 
