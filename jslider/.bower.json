@@ -1,0 +1,14 @@
+{
+  "name": "jslider",
+  "homepage": "https://github.com/SalesSeek/jslider",
+  "version": "1.2.0",
+  "_release": "1.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.2.0",
+    "commit": "6792b9d621947ff8a435ab4bf0e356a848698dfc"
+  },
+  "_source": "git@github.com:SalesSeek/jslider.git",
+  "_target": "1.2.0",
+  "_originalSource": "git@github.com:SalesSeek/jslider.git"
+}
