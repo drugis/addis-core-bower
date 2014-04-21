@@ -1,0 +1,56 @@
+{
+  "name": "mcda-elicitation-web",
+  "authors": [
+    "Gert van Valkenhoef <g.h.m.van.valkenhoef@rug.nl>",
+    "Joël Kuiper",
+    "Daan Reid",
+    "Connor Stroomberg"
+  ],
+  "description": "MCDA preference elicitation",
+  "main": "/app/js/main.js",
+  "license": "GPL-3",
+  "homepage": "http://drugis.org/software/addis2/",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "examples",
+    "R",
+    "sass",
+    "sass-shared",
+    "spring",
+    "test",
+    "tests",
+    "app-local",
+    "app-remote"
+  ],
+  "dependencies": {
+    "jquery": "2.0.3",
+    "underscore": "1.5.2",
+    "angular": "1.2.6",
+    "angular-resource": "1.2.6",
+    "angular-ui-router": "0.2.7",
+    "nprogress": "0.1.2",
+    "d3": "3.2.2",
+    "nvd3": "1.0.0-beta",
+    "foundation": "5.0.2",
+    "MathJax": "*",
+    "font-awesome": "~4.0.3",
+    "requirejs": "~2.1.10",
+    "bowser": "*"
+  },
+  "resolutions": {
+    "angular": "1.2.10-build.2164+sha.8b395ff"
+  },
+  "_release": "1aa4bb3675",
+  "_resolution": {
+    "type": "branch",
+    "branch": "bower",
+    "commit": "1aa4bb3675f6abbb2e152f1b9b89bd8f0d0ac2eb"
+  },
+  "_source": "git@github.com:gertvv/mcda-elicitation-web.git",
+  "_target": "bower",
+  "_originalSource": "git@github.com:gertvv/mcda-elicitation-web.git",
+  "_direct": true
+}
