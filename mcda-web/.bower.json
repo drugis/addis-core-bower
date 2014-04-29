@@ -1,5 +1,6 @@
 {
   "name": "mcda-elicitation-web",
+  "version": "0.8.1",
   "authors": [
     "Gert van Valkenhoef <g.h.m.van.valkenhoef@rug.nl>",
     "Joël Kuiper",
@@ -13,17 +14,16 @@
   "private": false,
   "ignore": [
     "**/.*",
-    "node_modules",
-    "bower_components",
     "examples",
     "R",
     "sass",
     "sass-shared",
-    "spring",
     "test",
-    "tests",
     "app-local",
-    "app-remote"
+    "app-remote",
+    "config.rb",
+    "Dockerfile",
+    "Makefile"
   ],
   "dependencies": {
     "jquery": "2.0.3",
@@ -38,18 +38,22 @@
     "MathJax": "*",
     "font-awesome": "~4.0.3",
     "requirejs": "~2.1.10",
+    "jslider": "https://github.com/SalesSeek/jslider.git#1.2.0",
     "bowser": "*"
   },
+  "devDependencies": {
+    "angular-mocks": "~1.2.16"
+  },
   "resolutions": {
-    "angular": "1.2.10-build.2164+sha.8b395ff"
+    "angular": "1.2.16"
   },
-  "_release": "1aa4bb3675",
+  "_release": "0.8.1",
   "_resolution": {
-    "type": "branch",
-    "branch": "bower",
-    "commit": "1aa4bb3675f6abbb2e152f1b9b89bd8f0d0ac2eb"
+    "type": "version",
+    "tag": "0.8.1",
+    "commit": "c161e4737b95a8317477c4c5ef93668a38824115"
   },
-  "_source": "git@github.com:gertvv/mcda-elicitation-web.git",
-  "_target": "bower",
-  "_originalSource": "git@github.com:gertvv/mcda-elicitation-web.git"
+  "_source": "https://github.com/drugis/mcda-elicitation-web.git",
+  "_target": "0.8.1",
+  "_originalSource": "https://github.com/drugis/mcda-elicitation-web.git"
 }
